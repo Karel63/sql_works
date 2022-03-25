@@ -5,7 +5,7 @@ CREATE TABLE demo (
     /* atribut jméno pro entity */
     jmeno varchar(50) NOT NULL,
     /* atribut narozené pro entity */
-    narozeni datetime NOT NULL,
+    narozeni date NOT NULL,
     /* atribut věk pro entity */
     vek tinyint NOT NULL UNSIGNED,
 );
